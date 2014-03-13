@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KRShare.h"
 
-@interface XYZAppDelegate : UIResponder <UIApplicationDelegate>
+@interface XYZAppDelegate : UIResponder <UIApplicationDelegate,KRShareDelegate,KRShareRequestDelegate,UIActionSheetDelegate>
+{
+    KRShare *_krShare;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

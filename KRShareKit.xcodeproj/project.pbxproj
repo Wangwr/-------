@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1819A782175890E30002319A /* KRShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819A781175890C00002319A /* KRShare.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4129C1A3169D2B000015275A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4129C1A2169D2B000015275A /* UIKit.framework */; };
 		4129C1A5169D2B000015275A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4129C1A4169D2B000015275A /* Foundation.framework */; };
 		4129C1A7169D2B000015275A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4129C1A6169D2B000015275A /* CoreGraphics.framework */; };
@@ -16,9 +17,15 @@
 		4129C1B5169D2B000015275A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4129C1B4169D2B000015275A /* Default.png */; };
 		4129C1B7169D2B000015275A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4129C1B6169D2B000015275A /* Default@2x.png */; };
 		4129C1B9169D2B000015275A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4129C1B8169D2B000015275A /* Default-568h@2x.png */; };
+		4129C1F7169D34E80015275A /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4129C1F6169D34E80015275A /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4129C201169D47CD0015275A /* KRShareAuthorizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4129C1FC169D47CD0015275A /* KRShareAuthorizeView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4129C202169D47CD0015275A /* KRShareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4129C1FF169D47CD0015275A /* KRShareRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4129C205169D4BB40015275A /* SysFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4129C204169D4BB40015275A /* SysFunction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1819A780175890C00002319A /* KRShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRShare.h; sourceTree = "<group>"; };
+		1819A781175890C00002319A /* KRShare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRShare.m; sourceTree = "<group>"; };
 		4129C19E169D2B000015275A /* KRShareKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRShareKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4129C1A2169D2B000015275A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4129C1A4169D2B000015275A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +39,15 @@
 		4129C1B4169D2B000015275A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4129C1B6169D2B000015275A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4129C1B8169D2B000015275A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4129C1F5169D34E80015275A /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		4129C1F6169D34E80015275A /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		4129C1FB169D47CD0015275A /* KRShareAuthorizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRShareAuthorizeView.h; sourceTree = "<group>"; };
+		4129C1FC169D47CD0015275A /* KRShareAuthorizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRShareAuthorizeView.m; sourceTree = "<group>"; };
+		4129C1FD169D47CD0015275A /* KRShareConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRShareConstants.h; sourceTree = "<group>"; };
+		4129C1FE169D47CD0015275A /* KRShareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRShareRequest.h; sourceTree = "<group>"; };
+		4129C1FF169D47CD0015275A /* KRShareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRShareRequest.m; sourceTree = "<group>"; };
+		4129C203169D4BB40015275A /* SysFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysFunction.h; sourceTree = "<group>"; };
+		4129C204169D4BB40015275A /* SysFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysFunction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,8 @@
 		4129C193169D2B000015275A = {
 			isa = PBXGroup;
 			children = (
+				4129C1F4169D34E80015275A /* JSONKit */,
+				4129C1F8169D47CD0015275A /* KrShareKit */,
 				4129C1A8169D2B000015275A /* KRShareKit */,
 				4129C1A1169D2B000015275A /* Frameworks */,
 				4129C19F169D2B000015275A /* Products */,
@@ -80,6 +98,8 @@
 			children = (
 				4129C1B1169D2B000015275A /* XYZAppDelegate.h */,
 				4129C1B2169D2B000015275A /* XYZAppDelegate.m */,
+				4129C203169D4BB40015275A /* SysFunction.h */,
+				4129C204169D4BB40015275A /* SysFunction.m */,
 				4129C1A9169D2B000015275A /* Supporting Files */,
 			);
 			path = KRShareKit;
@@ -97,6 +117,31 @@
 				4129C1B8169D2B000015275A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4129C1F4169D34E80015275A /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				4129C1F5169D34E80015275A /* JSONKit.h */,
+				4129C1F6169D34E80015275A /* JSONKit.m */,
+			);
+			name = JSONKit;
+			path = KRShareKit/JSONKit;
+			sourceTree = "<group>";
+		};
+		4129C1F8169D47CD0015275A /* KrShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				1819A780175890C00002319A /* KRShare.h */,
+				1819A781175890C00002319A /* KRShare.m */,
+				4129C1FB169D47CD0015275A /* KRShareAuthorizeView.h */,
+				4129C1FC169D47CD0015275A /* KRShareAuthorizeView.m */,
+				4129C1FD169D47CD0015275A /* KRShareConstants.h */,
+				4129C1FE169D47CD0015275A /* KRShareRequest.h */,
+				4129C1FF169D47CD0015275A /* KRShareRequest.m */,
+			);
+			name = KrShareKit;
+			path = KRShareKit/KrShareKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +210,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1819A782175890E30002319A /* KRShare.m in Sources */,
 				4129C1AF169D2B000015275A /* main.m in Sources */,
 				4129C1B3169D2B000015275A /* XYZAppDelegate.m in Sources */,
+				4129C1F7169D34E80015275A /* JSONKit.m in Sources */,
+				4129C201169D47CD0015275A /* KRShareAuthorizeView.m in Sources */,
+				4129C202169D47CD0015275A /* KRShareRequest.m in Sources */,
+				4129C205169D4BB40015275A /* SysFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,9 +287,11 @@
 		4129C1BD169D2B000015275A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KRShareKit/KRShareKit-Prefix.pch";
 				INFOPLIST_FILE = "KRShareKit/KRShareKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -248,9 +300,11 @@
 		4129C1BE169D2B000015275A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KRShareKit/KRShareKit-Prefix.pch";
 				INFOPLIST_FILE = "KRShareKit/KRShareKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +329,7 @@
 				4129C1BE169D2B000015275A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
